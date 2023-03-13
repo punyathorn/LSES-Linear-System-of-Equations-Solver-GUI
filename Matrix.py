@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 GUI = Tk()
 GUI.title("System of Equations Solver")
 GUI.geometry("500x500")
+GUI.iconbitmap("LSES-LOGO.ico")
 
 font1 = (None, 15)
 
