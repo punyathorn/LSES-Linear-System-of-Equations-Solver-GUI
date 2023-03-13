@@ -96,7 +96,6 @@ def get():
     d2 = (x*y2)-(x2*y)
     d3 = (x*equal_result2) - (x2*equal_result)
     if d1 == 0 and d2 == 0 and d3 == 0:
-        print("Infinitely Many Solutions (overlapping lines)")
         result.set("Infinitely Many Solutions (overlapping lines)")
         eq = "y = {}x+{}".format((-x)/y, equal_result/y)
         eq2 = "y = {}x+{}".format((-x2)/y2, equal_result2/y2)
@@ -104,16 +103,10 @@ def get():
             yeq = (-x)/y*i + equal_result/y
             xs.append(i)
             ys.append(yeq)
-            print(i, yeq) 
-            print("")
-            print(xs, ys)
         for i in range (int(-10), int(11)):
             yeq2 = (-x2)/y2*i + equal_result2/y2
             xs2.append(i)
             ys2.append(yeq2)
-            print(i, yeq2) 
-            print("")
-            print(xs2, ys2)
         plt.plot(xs,ys,label=eq)
         plt.plot(xs2,ys2,label=eq2)
         plt.title('Infinitely Many Solutions (overlapping lines)')
@@ -131,7 +124,6 @@ def get():
         # Show the plot
         plt.show()
     elif d2 == 0 and d1 !=0 and d3 != 0:
-        print("No Solution (parallel lines)")
         result.set("No Solution (parallel lines)")
         eq = "y = {}x+{}".format((-x)/y, equal_result/y)
         eq2 = "y = {}x+{}".format((-x2)/y2, equal_result2/y2)
@@ -162,7 +154,6 @@ def get():
     else:
         result_x = d1/d2
         result_y = d3/d2
-        print(result_x, result_y)
         result.set("({},{})".format(result_x, result_y))
         eq = "y = {}x+{}".format((-x)/y, equal_result/y)
         eq2 = "y = {}x+{}".format((-x2)/y2, equal_result2/y2)
