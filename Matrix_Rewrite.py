@@ -55,7 +55,7 @@ e1.place(x=100, y=200, anchor="center")
 l1 = Label(tab1, text="X ", font= font1)
 l1.place(x=150, y=200, anchor="center")
 
-l3 = Label(tab1, text=" = ", font= font1)
+l3 = Label(tab1, text=" + ", font= font1)
 l3.place(x=200, y=200, anchor="center")
 
 e2 = ttk.Entry(tab1, textvariable= coeff_y, width=3, font=font1)
