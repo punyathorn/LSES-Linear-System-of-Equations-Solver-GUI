@@ -7,10 +7,13 @@ Make sure your tkinter is working properly and don't forget to install matplotli
 ## DEMO
 
 ### System of Equations with No Solution
-![No Solution Demo](https://github.com/punyathorn/LSES-Linear-System-of-Equations-Solver-GUI/blob/main/No%20Solution%20Example.gif?raw=true)
+![No Solution Demo](https://github.com/punyathorn/LSES-Linear-System-of-Equations-Solver-GUI/blob/main/No%20Solution%20Rewrite.gif?raw=true)
 
 ### System of Equations with One Solution
-![One Solution Demo](https://github.com/punyathorn/LSES-Linear-System-of-Equations-Solver-GUI/blob/main/One%20Solution%20Example.gif?raw=true)
+![One Solution Demo](https://github.com/punyathorn/LSES-Linear-System-of-Equations-Solver-GUI/blob/main/One%20Solution%20Example%20Rewrite.gif?raw=true)
 
 ### System of Equations with Infinitely Many Solutions
-![Inf Many Solution Demo](https://github.com/punyathorn/LSES-Linear-System-of-Equations-Solver-GUI/blob/main/Inf%20Solution%20Example.gif?raw=true)
+![Inf Many Solution Demo](https://github.com/punyathorn/LSES-Linear-System-of-Equations-Solver-GUI/blob/main/Inf%20Solution%20Example%20Rewrite.gif?raw=true)
+
+### 3 Equation System of Equation
+![3 equation](https://github.com/punyathorn/LSES-Linear-System-of-Equations-Solver-GUI/blob/main/3%20Variable%20Rewrite.gif?raw=true)
